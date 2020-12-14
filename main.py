@@ -160,7 +160,7 @@ class Calculator:
         #fifth row, label key
         label_pi = Label(label_key, bg='black')
         label_pi.grid(row=4, column=0, padx=10, pady=10)
-        button_pi = Button(label_pi, text='pi', font=('Helvetica', '16'),command= lambda: self.click_button(math.pi),bg='black',fg='cyan')
+        button_pi = Button(label_pi, text='𝝿', font=('Helvetica', '16'),command= lambda: self.click_button(math.pi),bg='black',fg='cyan')
         button_pi.pack()
         
         label_deci = Label(label_key, bg='black')
